@@ -1,0 +1,89 @@
+version: '3.6'
+
+services:
+  frontend:
+    image: ghcr.io/magnusquist/sensorsync-frontend:latest
+    container_name: sensorsync-frontend
+    ports:
+      - "8080:8080"
+    networks:
+      - SensorSync
+    depends_on:
+      - service-registry
+      - gateway-api
+
+  gateway-api:
+    image: ghcr.io/magnusquist/sensorsync-gatewayapi:latest
+    container_name: sensorsync-gatewayapi
+    ports:
+      - "8285:8285"
+    networks:
+      - SensorSync
+    depends_on:
+      - service-registry
+    environment:
+      - SERVICE_REGISTRY_URL=http://service-registry:8761
+
+  service-registry:
+    image: ghcr.io/magnusquist/sensorsync-serviceregistry:latest
+    container_name: sensorsync-serviceregistry
+    ports:
+      - "8761:8761"
+    networks:
+      - SensorSync
+
+  db:
+    image: postgres
+    restart: unless-stopped
+    container_name: db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: SensorSync
+    ports:
+      - "5432:5432"
+    networks:
+      - SensorSync
+    volumes:
+      - ./docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+
+  device-service:
+    image: ghcr.io/magnusquist/sensorsync-deviceservice:latest
+    container_name: sensorsync-deviceservice
+    restart: on-failure
+    ports:
+      - "8282:8282"
+    networks:
+      - SensorSync
+    depends_on:
+      - db
+      - service-registry
+    environment:
+      SERVICE_REGISTRY_URL: http://service-registry:8761
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/SensorSync
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+
+  authentication-service:
+    image: ghcr.io/dunkykanstrup/authenticationservice:latest
+    container_name: sensorsync-authenticationservice
+    restart: on-failure
+    ports:
+      - "8283:8283"
+    networks:
+      - SensorSync
+    depends_on:
+      - db
+      - service-registry
+    environment:
+      SERVICE_REGISTRY_URL: http://service-registry:8761
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/SensorSync
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+
+networks:
+  SensorSync:
+
+volumes:
+  db:
+    driver: local
