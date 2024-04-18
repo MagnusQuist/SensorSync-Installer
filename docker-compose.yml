@@ -1,4 +1,4 @@
-version: '3.6'
+version: '3.8'
 
 services:
   frontend:
@@ -47,6 +47,25 @@ services:
     volumes:
       - ./docker_postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
 
+  message-service:
+    image: ghcr.io/helleberg/sensorsync-messageservice:latest
+    container_name: sensorsync-messageservice
+    restart: on-failure
+    ports:
+      - "8284:8284"
+    networks:
+      - SensorSync
+    depends_on:
+     # - device-service
+      - service-registry
+      - broker
+    environment:
+      SERVICE_REGISTRY_URL: http://service-registry:8761
+      ATHENA_BROKER_URL: broker
+      ATHENA_BROKER_PORT: 1883
+      ATHENA_BROKER_USER: admin
+      ATHENA_BROKER_PASSWORD: password
+
   device-service:
     image: ghcr.io/magnusquist/sensorsync-deviceservice:latest
     container_name: sensorsync-deviceservice
@@ -80,10 +99,34 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/SensorSync
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: postgres
+  
+  broker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sensorsync-broker
+    networks:
+      SensorSync:
+        ipv4_address: 172.100.10.10
+    ports:
+      - "1883:1883" #default mqtt port
+      - "9001:9001" #default mqtt port for websockets
+    volumes:
+      - ./config:/mosquitto/config
+      - ./log:/mosquitto/log
+      - broker_data:/mosquitto/data
+    restart: unless-stopped
+
 
 networks:
   SensorSync:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.100.10.0/24
 
 volumes:
   db:
     driver: local
+  broker_data:
