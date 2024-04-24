@@ -1,0 +1,513 @@
+1713820847: mosquitto version 2.0.18 starting
+1713820847: Config loaded from /mosquitto/config/mosquitto.conf.
+1713820847: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1713820847: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1713820847: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1713820847: Opening ipv4 listen socket on port 1883.
+1713820847: Opening ipv6 listen socket on port 1883.
+1713820847: mosquitto version 2.0.18 running
+1713821100: mosquitto version 2.0.18 terminating
+1713821100: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713821146: mosquitto version 2.0.18 starting
+1713821146: Config loaded from /mosquitto/config/mosquitto.conf.
+1713821146: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1713821146: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1713821146: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1713821146: Opening ipv4 listen socket on port 1883.
+1713821146: Opening ipv6 listen socket on port 1883.
+1713821146: mosquitto version 2.0.18 running
+1713821467: mosquitto version 2.0.18 terminating
+1713821467: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713821579: mosquitto version 2.0.18 starting
+1713821579: Config loaded from /mosquitto/config/mosquitto.conf.
+1713821579: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1713821579: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1713821579: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1713821579: Opening ipv4 listen socket on port 1883.
+1713821579: Opening ipv6 listen socket on port 1883.
+1713821579: mosquitto version 2.0.18 running
+1713821617: New connection from 172.100.10.8:48408 on port 1883.
+1713821617: New client connected from 172.100.10.8:48408 as MessageService (p2, c1, k60, u'admin').
+1713821617: No will message specified.
+1713821617: Sending CONNACK to MessageService (0, 0)
+1713821617: Received SUBSCRIBE from MessageService
+1713821617: 	devices/new (QoS 1)
+1713821617: MessageService 1 devices/new
+1713821617: Sending SUBACK to MessageService
+1713821617: Received SUBSCRIBE from MessageService
+1713821617: 	lifecycle/status (QoS 1)
+1713821617: MessageService 1 lifecycle/status
+1713821617: Sending SUBACK to MessageService
+1713821677: Received PINGREQ from MessageService
+1713821677: Sending PINGRESP to MessageService
+1713821737: Received PINGREQ from MessageService
+1713821737: Sending PINGRESP to MessageService
+1713821739: mosquitto version 2.0.18 terminating
+1713821739: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713821792: mosquitto version 2.0.18 starting
+1713821792: Config loaded from /mosquitto/config/mosquitto.conf.
+1713821792: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1713821792: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1713821792: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1713821792: Opening ipv4 listen socket on port 1883.
+1713821792: Opening ipv6 listen socket on port 1883.
+1713821792: mosquitto version 2.0.18 running
+1713821828: New connection from 172.100.10.8:48540 on port 1883.
+1713821829: New client connected from 172.100.10.8:48540 as MessageService (p2, c1, k60, u'admin').
+1713821829: No will message specified.
+1713821829: Sending CONNACK to MessageService (0, 0)
+1713821829: Received SUBSCRIBE from MessageService
+1713821829: 	devices/new (QoS 1)
+1713821829: MessageService 1 devices/new
+1713821829: Sending SUBACK to MessageService
+1713821829: Received SUBSCRIBE from MessageService
+1713821829: 	lifecycle/status (QoS 1)
+1713821829: MessageService 1 lifecycle/status
+1713821829: Sending SUBACK to MessageService
+1713821889: Received PINGREQ from MessageService
+1713821889: Sending PINGRESP to MessageService
+1713821889: mosquitto version 2.0.18 terminating
+1713821889: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713821929: mosquitto version 2.0.18 starting
+1713821929: Config loaded from /mosquitto/config/mosquitto.conf.
+1713821929: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1713821929: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1713821929: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1713821929: Opening ipv4 listen socket on port 1883.
+1713821929: Opening ipv6 listen socket on port 1883.
+1713821929: mosquitto version 2.0.18 running
+1713821965: New connection from 172.100.10.8:48632 on port 1883.
+1713821966: New client connected from 172.100.10.8:48632 as MessageService (p2, c1, k60, u'admin').
+1713821966: No will message specified.
+1713821966: Sending CONNACK to MessageService (0, 0)
+1713821966: Received SUBSCRIBE from MessageService
+1713821966: 	devices/new (QoS 1)
+1713821966: MessageService 1 devices/new
+1713821966: Sending SUBACK to MessageService
+1713821966: Received SUBSCRIBE from MessageService
+1713821966: 	lifecycle/status (QoS 1)
+1713821966: MessageService 1 lifecycle/status
+1713821966: Sending SUBACK to MessageService
+1713822026: Received PINGREQ from MessageService
+1713822026: Sending PINGRESP to MessageService
+1713822048: New connection from 172.100.10.1:47912 on port 1883.
+1713822048: New client connected from 172.100.10.1:47912 as 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (p2, c0, k60, u'admin').
+1713822048: No will message specified.
+1713822048: Sending CONNACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (0, 0)
+1713822048: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r1, m1, 'devices/new', ... (116 bytes))
+1713822048: Sending PUBLISH to MessageService (d0, q1, r0, m1, 'devices/new', ... (116 bytes))
+1713822048: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m1, rc0)
+1713822048: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r0, m2, 'lifecycle/status', ... (187 bytes))
+1713822048: Sending PUBLISH to MessageService (d0, q1, r0, m2, 'lifecycle/status', ... (187 bytes))
+1713822048: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m2, rc0)
+1713822049: Received PUBACK from MessageService (Mid: 1, RC:0)
+1713822049: Received PUBACK from MessageService (Mid: 2, RC:0)
+1713822078: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r0, m3, 'lifecycle/status', ... (188 bytes))
+1713822078: Sending PUBLISH to MessageService (d0, q1, r0, m3, 'lifecycle/status', ... (188 bytes))
+1713822078: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m3, rc0)
+1713822078: Received PUBACK from MessageService (Mid: 3, RC:0)
+1713822138: Received PINGREQ from MessageService
+1713822138: Sending PINGRESP to MessageService
+1713822169: Client 536e0ae7-27ff-57a3-9733-a93ac00f4b2f has exceeded timeout, disconnecting.
+1713822198: Received PINGREQ from MessageService
+1713822198: Sending PINGRESP to MessageService
+1713822258: Received PINGREQ from MessageService
+1713822258: Sending PINGRESP to MessageService
+1713822272: New connection from 172.100.10.1:47984 on port 1883.
+1713822272: New client connected from 172.100.10.1:47984 as 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (p2, c0, k60, u'admin').
+1713822272: No will message specified.
+1713822272: Sending CONNACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (1, 0)
+1713822272: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r1, m1, 'devices/new', ... (116 bytes))
+1713822272: Sending PUBLISH to MessageService (d0, q1, r0, m4, 'devices/new', ... (116 bytes))
+1713822272: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m1, rc0)
+1713822272: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r0, m2, 'lifecycle/status', ... (187 bytes))
+1713822272: Sending PUBLISH to MessageService (d0, q1, r0, m5, 'lifecycle/status', ... (187 bytes))
+1713822272: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m2, rc0)
+1713822272: Received PUBACK from MessageService (Mid: 4, RC:0)
+1713822272: Received PUBACK from MessageService (Mid: 5, RC:0)
+1713822302: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r0, m3, 'lifecycle/status', ... (188 bytes))
+1713822302: Sending PUBLISH to MessageService (d0, q1, r0, m6, 'lifecycle/status', ... (188 bytes))
+1713822302: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m3, rc0)
+1713822302: Received PUBACK from MessageService (Mid: 6, RC:0)
+1713822332: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r0, m4, 'lifecycle/status', ... (188 bytes))
+1713822332: Sending PUBLISH to MessageService (d0, q1, r0, m7, 'lifecycle/status', ... (188 bytes))
+1713822332: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m4, rc0)
+1713822332: Received PUBACK from MessageService (Mid: 7, RC:0)
+1713822392: Received PINGREQ from MessageService
+1713822392: Sending PINGRESP to MessageService
+1713822427: Client 536e0ae7-27ff-57a3-9733-a93ac00f4b2f has exceeded timeout, disconnecting.
+1713822452: Received PINGREQ from MessageService
+1713822452: Sending PINGRESP to MessageService
+1713822483: mosquitto version 2.0.18 terminating
+1713822483: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713822544: mosquitto version 2.0.18 starting
+1713822544: Config loaded from /mosquitto/config/mosquitto.conf.
+1713822544: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1713822544: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1713822544: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1713822544: Opening ipv4 listen socket on port 1883.
+1713822544: Opening ipv6 listen socket on port 1883.
+1713822544: mosquitto version 2.0.18 running
+1713822582: New connection from 172.100.10.8:49004 on port 1883.
+1713822582: New client connected from 172.100.10.8:49004 as MessageService (p2, c1, k60, u'admin').
+1713822582: No will message specified.
+1713822582: Sending CONNACK to MessageService (0, 0)
+1713822582: Received SUBSCRIBE from MessageService
+1713822582: 	devices/new (QoS 1)
+1713822582: MessageService 1 devices/new
+1713822582: Sending SUBACK to MessageService
+1713822582: Received SUBSCRIBE from MessageService
+1713822582: 	lifecycle/status (QoS 1)
+1713822582: MessageService 1 lifecycle/status
+1713822582: Sending SUBACK to MessageService
+1713822615: New connection from 172.100.10.1:48172 on port 1883.
+1713822615: New client connected from 172.100.10.1:48172 as 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (p2, c0, k60, u'admin').
+1713822615: No will message specified.
+1713822615: Sending CONNACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (0, 0)
+1713822615: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r1, m1, 'devices/new', ... (116 bytes))
+1713822615: Sending PUBLISH to MessageService (d0, q1, r0, m1, 'devices/new', ... (116 bytes))
+1713822615: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m1, rc0)
+1713822616: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r0, m2, 'lifecycle/status', ... (187 bytes))
+1713822616: Sending PUBLISH to MessageService (d0, q1, r0, m2, 'lifecycle/status', ... (187 bytes))
+1713822616: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m2, rc0)
+1713822616: Received PUBACK from MessageService (Mid: 1, RC:0)
+1713822616: Received PUBACK from MessageService (Mid: 2, RC:0)
+1713822646: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r0, m3, 'lifecycle/status', ... (188 bytes))
+1713822646: Sending PUBLISH to MessageService (d0, q1, r0, m3, 'lifecycle/status', ... (188 bytes))
+1713822646: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m3, rc0)
+1713822646: Received PUBACK from MessageService (Mid: 3, RC:0)
+1713822676: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r0, m4, 'lifecycle/status', ... (188 bytes))
+1713822676: Sending PUBLISH to MessageService (d0, q1, r0, m4, 'lifecycle/status', ... (188 bytes))
+1713822676: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m4, rc0)
+1713822676: Received PUBACK from MessageService (Mid: 4, RC:0)
+1713822736: Received PINGREQ from MessageService
+1713822736: Sending PINGRESP to MessageService
+1713822766: Client 536e0ae7-27ff-57a3-9733-a93ac00f4b2f has exceeded timeout, disconnecting.
+1713822796: Received PINGREQ from MessageService
+1713822796: Sending PINGRESP to MessageService
+1713822856: Received PINGREQ from MessageService
+1713822856: Sending PINGRESP to MessageService
+1713822916: Received PINGREQ from MessageService
+1713822916: Sending PINGRESP to MessageService
+1713822939: mosquitto version 2.0.18 terminating
+1713822939: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713822993: mosquitto version 2.0.18 starting
+1713822993: Config loaded from /mosquitto/config/mosquitto.conf.
+1713822993: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1713822993: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1713822993: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1713822993: Opening ipv4 listen socket on port 1883.
+1713822993: Opening ipv6 listen socket on port 1883.
+1713822993: mosquitto version 2.0.18 running
+1713823030: New connection from 172.100.10.8:49308 on port 1883.
+1713823030: New client connected from 172.100.10.8:49308 as MessageService (p2, c1, k60, u'admin').
+1713823030: No will message specified.
+1713823030: Sending CONNACK to MessageService (0, 0)
+1713823030: Received SUBSCRIBE from MessageService
+1713823030: 	devices/new (QoS 1)
+1713823030: MessageService 1 devices/new
+1713823030: Sending SUBACK to MessageService
+1713823030: Received SUBSCRIBE from MessageService
+1713823030: 	lifecycle/status (QoS 1)
+1713823030: MessageService 1 lifecycle/status
+1713823030: Sending SUBACK to MessageService
+1713823088: New connection from 172.100.10.1:48480 on port 1883.
+1713823088: New client connected from 172.100.10.1:48480 as 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (p2, c0, k60, u'admin').
+1713823088: No will message specified.
+1713823088: Sending CONNACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (0, 0)
+1713823088: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r1, m1, 'devices/new', ... (116 bytes))
+1713823088: Sending PUBLISH to MessageService (d0, q1, r0, m1, 'devices/new', ... (116 bytes))
+1713823088: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m1, rc0)
+1713823088: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r0, m2, 'lifecycle/status', ... (187 bytes))
+1713823088: Sending PUBLISH to MessageService (d0, q1, r0, m2, 'lifecycle/status', ... (187 bytes))
+1713823088: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m2, rc0)
+1713823088: Received PUBACK from MessageService (Mid: 1, RC:0)
+1713823088: Received PUBACK from MessageService (Mid: 2, RC:0)
+1713823118: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r0, m3, 'lifecycle/status', ... (188 bytes))
+1713823118: Sending PUBLISH to MessageService (d0, q1, r0, m3, 'lifecycle/status', ... (188 bytes))
+1713823118: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m3, rc0)
+1713823118: Received PUBACK from MessageService (Mid: 3, RC:0)
+1713823178: Received PINGREQ from MessageService
+1713823178: Sending PINGRESP to MessageService
+1713823209: Client 536e0ae7-27ff-57a3-9733-a93ac00f4b2f has exceeded timeout, disconnecting.
+1713823221: New connection from 172.100.10.1:48508 on port 1883.
+1713823221: New client connected from 172.100.10.1:48508 as 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (p2, c0, k60, u'admin').
+1713823221: No will message specified.
+1713823221: Sending CONNACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (1, 0)
+1713823221: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r1, m1, 'devices/new', ... (116 bytes))
+1713823221: Sending PUBLISH to MessageService (d0, q1, r0, m4, 'devices/new', ... (116 bytes))
+1713823221: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m1, rc0)
+1713823221: Received PUBLISH from 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (d0, q1, r0, m2, 'lifecycle/status', ... (187 bytes))
+1713823221: Sending PUBLISH to MessageService (d0, q1, r0, m5, 'lifecycle/status', ... (187 bytes))
+1713823221: Sending PUBACK to 536e0ae7-27ff-57a3-9733-a93ac00f4b2f (m2, rc0)
+1713823221: Received PUBACK from MessageService (Mid: 4, RC:0)
+1713823221: Received PUBACK from MessageService (Mid: 5, RC:0)
+1713823242: mosquitto version 2.0.18 terminating
+1713823242: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713868276: mosquitto version 2.0.18 starting
+1713868276: Config loaded from /mosquitto/config/mosquitto.conf.
+1713868276: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1713868276: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1713868276: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1713868276: Opening ipv4 listen socket on port 1883.
+1713868276: Opening ipv6 listen socket on port 1883.
+1713868276: mosquitto version 2.0.18 running
+1713868297: New connection from 172.100.10.8:43544 on port 1883.
+1713868297: New client connected from 172.100.10.8:43544 as MessageService (p2, c1, k60, u'admin').
+1713868297: No will message specified.
+1713868297: Sending CONNACK to MessageService (0, 0)
+1713868297: Received SUBSCRIBE from MessageService
+1713868297: 	devices/new (QoS 1)
+1713868297: MessageService 1 devices/new
+1713868297: Sending SUBACK to MessageService
+1713868297: Received SUBSCRIBE from MessageService
+1713868297: 	lifecycle/status (QoS 1)
+1713868297: MessageService 1 lifecycle/status
+1713868297: Sending SUBACK to MessageService
+1713868357: Received PINGREQ from MessageService
+1713868357: Sending PINGRESP to MessageService
+1713868417: Received PINGREQ from MessageService
+1713868417: Sending PINGRESP to MessageService
+1713868477: Received PINGREQ from MessageService
+1713868477: Sending PINGRESP to MessageService
+1713868537: Received PINGREQ from MessageService
+1713868537: Sending PINGRESP to MessageService
+1713868597: Received PINGREQ from MessageService
+1713868597: Sending PINGRESP to MessageService
+1713868657: Received PINGREQ from MessageService
+1713868657: Sending PINGRESP to MessageService
+1713868717: Received PINGREQ from MessageService
+1713868717: Sending PINGRESP to MessageService
+1713868777: Received PINGREQ from MessageService
+1713868777: Sending PINGRESP to MessageService
+1713868837: Received PINGREQ from MessageService
+1713868837: Sending PINGRESP to MessageService
+1713868897: Received PINGREQ from MessageService
+1713868897: Sending PINGRESP to MessageService
+1713868957: Received PINGREQ from MessageService
+1713868957: Sending PINGRESP to MessageService
+1713869017: Received PINGREQ from MessageService
+1713869017: Sending PINGRESP to MessageService
+1713869077: Received PINGREQ from MessageService
+1713869077: Sending PINGRESP to MessageService
+1713869137: Received PINGREQ from MessageService
+1713869137: Sending PINGRESP to MessageService
+1713869197: Received PINGREQ from MessageService
+1713869197: Sending PINGRESP to MessageService
+1713869257: Received PINGREQ from MessageService
+1713869257: Sending PINGRESP to MessageService
+1713869317: Received PINGREQ from MessageService
+1713869317: Sending PINGRESP to MessageService
+1713869377: Received PINGREQ from MessageService
+1713869377: Sending PINGRESP to MessageService
+1713869437: Received PINGREQ from MessageService
+1713869437: Sending PINGRESP to MessageService
+1713869497: Received PINGREQ from MessageService
+1713869497: Sending PINGRESP to MessageService
+1713869557: Received PINGREQ from MessageService
+1713869557: Sending PINGRESP to MessageService
+1713869617: Received PINGREQ from MessageService
+1713869617: Sending PINGRESP to MessageService
+1713869677: Received PINGREQ from MessageService
+1713869677: Sending PINGRESP to MessageService
+1713869737: Received PINGREQ from MessageService
+1713869737: Sending PINGRESP to MessageService
+1713869797: Received PINGREQ from MessageService
+1713869797: Sending PINGRESP to MessageService
+1713869857: Received PINGREQ from MessageService
+1713869857: Sending PINGRESP to MessageService
+1713869917: Received PINGREQ from MessageService
+1713869917: Sending PINGRESP to MessageService
+1713869977: Received PINGREQ from MessageService
+1713869977: Sending PINGRESP to MessageService
+1713870037: Received PINGREQ from MessageService
+1713870037: Sending PINGRESP to MessageService
+1713870077: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713870097: Received PINGREQ from MessageService
+1713870097: Sending PINGRESP to MessageService
+1713870157: Received PINGREQ from MessageService
+1713870157: Sending PINGRESP to MessageService
+1713870217: Received PINGREQ from MessageService
+1713870217: Sending PINGRESP to MessageService
+1713870277: Received PINGREQ from MessageService
+1713870277: Sending PINGRESP to MessageService
+1713870337: Received PINGREQ from MessageService
+1713870337: Sending PINGRESP to MessageService
+1713870397: Received PINGREQ from MessageService
+1713870397: Sending PINGRESP to MessageService
+1713870457: Received PINGREQ from MessageService
+1713870457: Sending PINGRESP to MessageService
+1713870517: Received PINGREQ from MessageService
+1713870517: Sending PINGRESP to MessageService
+1713870577: Received PINGREQ from MessageService
+1713870577: Sending PINGRESP to MessageService
+1713870637: Received PINGREQ from MessageService
+1713870637: Sending PINGRESP to MessageService
+1713870697: Received PINGREQ from MessageService
+1713870697: Sending PINGRESP to MessageService
+1713870757: Received PINGREQ from MessageService
+1713870757: Sending PINGRESP to MessageService
+1713870817: Received PINGREQ from MessageService
+1713870817: Sending PINGRESP to MessageService
+1713870877: Received PINGREQ from MessageService
+1713870877: Sending PINGRESP to MessageService
+1713870937: Received PINGREQ from MessageService
+1713870937: Sending PINGRESP to MessageService
+1713870997: Received PINGREQ from MessageService
+1713870997: Sending PINGRESP to MessageService
+1713871057: Received PINGREQ from MessageService
+1713871057: Sending PINGRESP to MessageService
+1713871117: Received PINGREQ from MessageService
+1713871117: Sending PINGRESP to MessageService
+1713871177: Received PINGREQ from MessageService
+1713871177: Sending PINGRESP to MessageService
+1713871237: Received PINGREQ from MessageService
+1713871237: Sending PINGRESP to MessageService
+1713871297: Received PINGREQ from MessageService
+1713871297: Sending PINGRESP to MessageService
+1713871357: Received PINGREQ from MessageService
+1713871357: Sending PINGRESP to MessageService
+1713871417: Received PINGREQ from MessageService
+1713871417: Sending PINGRESP to MessageService
+1713871477: Received PINGREQ from MessageService
+1713871477: Sending PINGRESP to MessageService
+1713871537: Received PINGREQ from MessageService
+1713871537: Sending PINGRESP to MessageService
+1713871597: Received PINGREQ from MessageService
+1713871597: Sending PINGRESP to MessageService
+1713871657: Received PINGREQ from MessageService
+1713871657: Sending PINGRESP to MessageService
+1713871717: Received PINGREQ from MessageService
+1713871717: Sending PINGRESP to MessageService
+1713871777: Received PINGREQ from MessageService
+1713871777: Sending PINGRESP to MessageService
+1713871837: Received PINGREQ from MessageService
+1713871837: Sending PINGRESP to MessageService
+1713871878: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713871897: Received PINGREQ from MessageService
+1713871897: Sending PINGRESP to MessageService
+1713871957: Received PINGREQ from MessageService
+1713871957: Sending PINGRESP to MessageService
+1713871970: mosquitto version 2.0.18 terminating
+1713871970: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713872259: mosquitto version 2.0.18 starting
+1713872259: Config loaded from /mosquitto/config/mosquitto.conf.
+1713872259: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1713872259: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1713872259: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1713872259: Opening ipv4 listen socket on port 1883.
+1713872259: Opening ipv6 listen socket on port 1883.
+1713872259: mosquitto version 2.0.18 running
+1713872282: New connection from 172.100.10.8:44604 on port 1883.
+1713872282: New client connected from 172.100.10.8:44604 as MessageService (p2, c1, k60, u'admin').
+1713872282: No will message specified.
+1713872282: Sending CONNACK to MessageService (0, 0)
+1713872282: Received SUBSCRIBE from MessageService
+1713872282: 	devices/new (QoS 1)
+1713872282: MessageService 1 devices/new
+1713872282: Sending SUBACK to MessageService
+1713872282: Received SUBSCRIBE from MessageService
+1713872282: 	lifecycle/status (QoS 1)
+1713872282: MessageService 1 lifecycle/status
+1713872282: Sending SUBACK to MessageService
+1713872342: Received PINGREQ from MessageService
+1713872342: Sending PINGRESP to MessageService
+1713872402: Received PINGREQ from MessageService
+1713872402: Sending PINGRESP to MessageService
+1713872462: Received PINGREQ from MessageService
+1713872462: Sending PINGRESP to MessageService
+1713872522: Received PINGREQ from MessageService
+1713872522: Sending PINGRESP to MessageService
+1713872582: Received PINGREQ from MessageService
+1713872582: Sending PINGRESP to MessageService
+1713872642: Received PINGREQ from MessageService
+1713872642: Sending PINGRESP to MessageService
+1713872702: Received PINGREQ from MessageService
+1713872702: Sending PINGRESP to MessageService
+1713872762: Received PINGREQ from MessageService
+1713872762: Sending PINGRESP to MessageService
+1713872822: Received PINGREQ from MessageService
+1713872822: Sending PINGRESP to MessageService
+1713872882: Received PINGREQ from MessageService
+1713872882: Sending PINGRESP to MessageService
+1713872942: Received PINGREQ from MessageService
+1713872942: Sending PINGRESP to MessageService
+1713873002: Received PINGREQ from MessageService
+1713873002: Sending PINGRESP to MessageService
+1713873062: Received PINGREQ from MessageService
+1713873062: Sending PINGRESP to MessageService
+1713873122: Received PINGREQ from MessageService
+1713873122: Sending PINGRESP to MessageService
+1713873182: Received PINGREQ from MessageService
+1713873182: Sending PINGRESP to MessageService
+1713873242: Received PINGREQ from MessageService
+1713873242: Sending PINGRESP to MessageService
+1713873302: Received PINGREQ from MessageService
+1713873302: Sending PINGRESP to MessageService
+1713873362: Received PINGREQ from MessageService
+1713873362: Sending PINGRESP to MessageService
+1713873422: Received PINGREQ from MessageService
+1713873422: Sending PINGRESP to MessageService
+1713873482: Received PINGREQ from MessageService
+1713873482: Sending PINGRESP to MessageService
+1713873542: Received PINGREQ from MessageService
+1713873542: Sending PINGRESP to MessageService
+1713873602: Received PINGREQ from MessageService
+1713873602: Sending PINGRESP to MessageService
+1713873662: Received PINGREQ from MessageService
+1713873662: Sending PINGRESP to MessageService
+1713873722: Received PINGREQ from MessageService
+1713873722: Sending PINGRESP to MessageService
+1713873782: Received PINGREQ from MessageService
+1713873782: Sending PINGRESP to MessageService
+1713873842: Received PINGREQ from MessageService
+1713873842: Sending PINGRESP to MessageService
+1713873902: Received PINGREQ from MessageService
+1713873902: Sending PINGRESP to MessageService
+1713873962: Received PINGREQ from MessageService
+1713873962: Sending PINGRESP to MessageService
+1713874022: Received PINGREQ from MessageService
+1713874022: Sending PINGRESP to MessageService
+1713874060: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713874082: Received PINGREQ from MessageService
+1713874082: Sending PINGRESP to MessageService
+1713874142: Received PINGREQ from MessageService
+1713874142: Sending PINGRESP to MessageService
+1713874161: mosquitto version 2.0.18 terminating
+1713874161: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1713960079: mosquitto version 2.0.18 starting
+1713960079: Config loaded from /mosquitto/config/mosquitto.conf.
+1713960079: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1713960079: Warning: File /mosquitto/config/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/passwd`.
+1713960079: Warning: File /mosquitto/config/passwd group is not mosquitto. Future versions will refuse to load this file.
+1713960079: Opening ipv4 listen socket on port 1883.
+1713960079: Opening ipv6 listen socket on port 1883.
+1713960079: mosquitto version 2.0.18 running
+1713960116: New connection from 172.100.10.8:49166 on port 1883.
+1713960117: New client connected from 172.100.10.8:49166 as MessageService (p2, c1, k60, u'admin').
+1713960117: No will message specified.
+1713960117: Sending CONNACK to MessageService (0, 0)
+1713960117: Received SUBSCRIBE from MessageService
+1713960117: 	devices/new (QoS 1)
+1713960117: MessageService 1 devices/new
+1713960117: Sending SUBACK to MessageService
+1713960117: Received SUBSCRIBE from MessageService
+1713960117: 	lifecycle/status (QoS 1)
+1713960117: MessageService 1 lifecycle/status
+1713960117: Sending SUBACK to MessageService
+1713960177: Received PINGREQ from MessageService
+1713960177: Sending PINGRESP to MessageService
+1713960237: Received PINGREQ from MessageService
+1713960237: Sending PINGRESP to MessageService
+1713960297: Received PINGREQ from MessageService
+1713960297: Sending PINGRESP to MessageService

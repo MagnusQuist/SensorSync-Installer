@@ -33,7 +33,9 @@ services:
       - SensorSync
 
   db:
-    image: postgres
+    build:
+      context: .
+      dockerfile: ./database/Dockerfile
     restart: unless-stopped
     container_name: db
     environment:
@@ -42,6 +44,7 @@ services:
       POSTGRES_DB: SensorSync
     volumes:
       - db:/var/lib/postgresql/data
+      - ./database/init-db/init.sql:/docker-entrypoint-initdb.d/init.sql
     ports:
       - "5432:5432"
     networks:
@@ -108,7 +111,7 @@ services:
   broker:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: ./broker/Dockerfile
     container_name: sensorsync-broker
     networks:
       SensorSync:
@@ -117,8 +120,8 @@ services:
       - "1883:1883" #default mqtt port
       - "9001:9001" #default mqtt port for websockets
     volumes:
-      - ./config:/mosquitto/config
-      - ./log:/mosquitto/log
+      - ./broker/config:/mosquitto/config
+      - ./broker/log:/mosquitto/log
       - broker_data:/mosquitto/data
     restart: unless-stopped
 
