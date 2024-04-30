@@ -10,4 +10,5 @@ docker network rm $(docker network ls --filter name=SensorSync -q)
 # Remove Docker images related to the application
 docker image rm -f $(docker image ls --filter reference='ghcr.io/magnusquist/*' -q)
 docker image rm -f $(docker image ls --filter reference='ghcr.io/dunkykanstrup/*' -q)
+docker image rm -f $(docker image ls --filter reference='ghcr.io/helleberg/*' -q)
 docker image rm -f postgres
