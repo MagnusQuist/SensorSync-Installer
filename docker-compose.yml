@@ -67,6 +67,12 @@ services:
       ATHENA_BROKER_PORT: 1883
       ATHENA_BROKER_USER: admin
       ATHENA_BROKER_PASSWORD: password
+    healthcheck:
+      test: "curl --fail --silent localhost:8284/actuator/health/readiness | grep UP || exit 1"
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 15s
 
   device-service:
     image: ghcr.io/magnusquist/sensorsync-deviceservice:latest
@@ -90,6 +96,22 @@ services:
       timeout: 10s
       retries: 10
       start_period: 15s
+
+  firmware-service:
+    image: ghcr.io/helleberg/sensorsync-firmwareservice:latest
+    container_name: sensorsync-firmwareservice
+    restart: on-failure
+    ports:
+    - "8286:8286"
+    networks:
+    - SensorSync
+    environment:
+      SERVICE_REGISTRY_URL: http://service-registry:8761
+    depends_on:
+      device-service:
+        condition: service_healthy
+      message-service:
+        condition: service_healthy
 
   authentication-service:
     image: ghcr.io/dunkykanstrup/authenticationservice:latest
