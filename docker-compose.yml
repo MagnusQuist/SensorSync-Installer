@@ -97,6 +97,22 @@ services:
       retries: 10
       start_period: 15s
 
+  firmware-service:
+    image: ghcr.io/helleberg/sensorsync-firmwareservice:latest
+    container_name: sensorsync-firmwareservice
+    restart: on-failure
+    ports:
+    - "8286:8286"
+    networks:
+    - SensorSync
+    environment:
+      SERVICE_REGISTRY_URL: http://service-registry:8761
+    depends_on:
+      device-service:
+        condition: service_healthy
+      message-service:
+        condition: service_healthy
+
   authentication-service:
     image: ghcr.io/dunkykanstrup/authenticationservice:latest
     container_name: sensorsync-authenticationservice
@@ -113,22 +129,6 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/SensorSync
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: postgres
-  
-  firmware-service:
-    image: ghcr.io/helleberg/sensorsync-firmwareservice:latest
-    container_name: sensorsync-firmwareservice
-    restart: on-failure
-    ports:
-      - "8286:8286"
-    networks:
-      - SensorSync
-    environment:
-      SERVICE_REGISTRY_URL: http://service-registry:8761
-    depends_on:
-      device-service:
-        condition: service_healthy
-      message-service:
-        condition: service_healthy
 
   broker:
     build:
