@@ -33,7 +33,7 @@ CREATE EXTENSION IF NOT EXISTS pg_cron;
 CREATE OR REPLACE FUNCTION update_device_online_status()
 RETURNS TRIGGER AS $$
 BEGIN
-    IF NEW.last_ping < NOW() - INTERVAL 1 SECOND THEN
+    IF NEW.last_ping < NOW() - INTERVAL '30 seconds' THEN
         UPDATE device
         SET online = FALSE
         WHERE uuid = NEW.uuid;
@@ -56,5 +56,5 @@ EXECUTE FUNCTION update_device_online_status();
 SELECT cron.schedule('update_device_online_status_job', '*/1 * * * *', $$ 
     UPDATE device
     SET online = FALSE
-    WHERE last_ping < NOW() - INTERVAL 1 SECOND;
+    WHERE last_ping < NOW() - INTERVAL '30 seconds';
 $$);
